@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <form action="" name="inscrição" method="post">
+        <h1>Cadastro do Aluno</h1>
+        <p><strong>Olá, preencha o formulário com carinho, suas informações estarão seguras</strong> &#x1F609<p>
+        <fieldset><legend><strong>Informações pessoais</strong></legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="Nome" id = "nome" size="40" required> 
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" size="40" required> 
+            
+            <br>
+            
+            <label for="gênero">Gênero</label>
+            <select name="gênero" id="gênero" size="1" required>
+            <option value="Vazio">----</option>
+            <option value="Homem Cisgênero">Homem Cisgênero</option>
+            <option value="Mulher Cisgênero">Mulher Cisgênero</option>
+            <option value="Homem Trans">Homem Trans</option>
+            <option value="Mulher Trans">Mulher Trans</option>
+            <option value="Transexual">Transexual</option>
+            <option value="Queer">Queer</option>
+            <option value="Transgênero">Transgênero</option>
+            <option value="Queer">Queer</option>
+            <option value="Não-binário">Não-binário</option>
+            <option value="Gênero fluído">Gênero fluído</option>
+            <option value="Prefiro não responder">Prefiro não responder</option>
+            <option value="Outro/outra">Outro/outra</option>
+        </select>
+            &nbsp;
+            <label for="origem">Estado de Origem</label>
+            <select name="UF" id="origem">
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AM">AM</option>
+                <option value="AP">AP</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MG">MG</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="PR">PR</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="RS">RS</option>
+                <option value="SC">SC</option>
+                <option value="SE">SE</option>
+                <option value="SP">SP</option>
+                <option value="TO">TO</option>
+            </select>
+            &nbsp;
+            <label for="nascimento">Data de nascimento:</label>
+            <input type="date" name="Data de nascimento" id="nascimento">
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" maxlength="11" required>
+            <br>
+            <br>
+            </fieldset>
+            <fieldset> <legend><strong>Onde você mora?</strong></legend>
+            <label for="rua">Rua</label>
+            <input type="text" name="rua" id="rua" size="40" required>
+            &nbsp;
+            <label for="Complemento">Complemento</label>
+            <input type="text" name="Complemento" id="Complemento" size="40">
+            <label for="numero">N°</label>
+            <input type="text" name="numero" id="numero">
+            <br>
+            <label for="CEP">CEP</label>
+            <input type="text" name="CEP" id="CEP">
+            &nbsp;
+            <label for="UF_mora">UF</label>
+            <select name="UF" id="UF_mora">
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AM">AM</option>
+                <option value="AP">AP</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MG">MG</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="PR">PR</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="RS">RS</option>
+                <option value="SC">SC</option>
+                <option value="SE">SE</option>
+                <option value="SP">SP</option>
+                <option value="TO">TO</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" name="cadastrar" value="Cadastrar">
+        </fieldset>
+            
+            
+            
+    </form>
+</body>
+</html>
