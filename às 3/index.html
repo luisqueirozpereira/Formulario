@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de inscrição</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <!-- Desenvolvido por: Luís Queiroz-->
 </head>
 <body>
+    <!--Criando, nomeando e marcando o formulário-->
+    <!--o primeiro fieldset foi destinado aos dados pessoais-->
     <form action="" name="inscrição" method="post">
         <h1>Cadastro do Aluno</h1>
         <p><strong>Olá, preencha o formulário com carinho, suas informações estarão seguras</strong> &#x1F609<p>
@@ -16,9 +19,9 @@
             <input type="text" name="Nome" id = "nome" size="40" required> 
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" size="40" required> 
-            
+            <!-- Solicitando informações como obrigatórias-->
             <br>
-            
+            <!--Select com opções de gênero para o usuário-->
             <label for="gênero">Gênero</label>
             <select name="gênero" id="gênero" size="1" required>
             <option value="Vazio">----</option>
@@ -34,6 +37,7 @@
             <option value="Outro/outra">Outro/outra</option>
         </select>
             &nbsp;
+            <!--Select com opções de Estados-->
             <label for="origem">Estado de Origem</label>
             <select name="UF" id="origem">
                 <option value="AC">AC</option>
@@ -70,9 +74,10 @@
             <br>
             <label for="telefone">Telefone:</label>
             <input type="tel" name="telefone" id="telefone" maxlength="11" required>
-            <br>
+            <br>  <!--Utilizando tags especificas para dar sentido ao form-->
             <br>
             </fieldset>
+             <!--Novo fieldset para solicitar o endereço do usuário-->
             <fieldset> <legend><strong>Onde você mora?</strong></legend>
             <label for="rua">Rua</label>
             <input type="text" name="rua" id="rua" size="40" required>
